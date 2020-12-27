@@ -19,7 +19,7 @@
            echo "<meta http-equiv='refresh' content='3;url=login.html''>"; //上面例子會讓網頁在載入 3 秒後，自動跳轉到login.html              
     }
     elseif ($login==TRUE){
-      session_start();  // 儲存 session 資料
+      session_start();  //啟動Session的使用
       $_SESSION["id"] = $_POST['id'];
       echo "歡迎登入";    
       echo "<meta http-equiv='refresh' content='0;url=bulletin.php''>";   //上面例子會讓網頁在載入 0秒後，自動跳轉到bulletin.php 
