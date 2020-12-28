@@ -1,9 +1,9 @@
 <?php
-    error_reporting(0);
-    session_start();
-    if (!isset($_SESSION["id"])){
-        echo "請登入系統";
-        echo "<meta http-equiv='refresh' content='3; url=login.html'>";
+    error_reporting(0);  //報告執行時錯誤
+    session_start();    //啟動Session的使用
+    if (!isset($_SESSION["id"])){   //將session清空
+        echo "請登入系統";       //這行會被echo出來文字「請登入系統」
+        echo "<meta http-equiv='refresh' content='3; url=login.html'>";    //上面例子會讓網頁在載入 3 秒後，自動跳轉到login.html
     }else{
         echo "歡迎 {$_SESSION['id']} 登入 [<a href=logout.php>登出</a>]<p>[<a href=bulletin_add_form.php>新增佈告</a>]<p>";
         $conn=mysqli_connect("localhost","root","", "mydb");
