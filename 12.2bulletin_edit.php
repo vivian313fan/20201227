@@ -15,6 +15,6 @@ if (!isset($_SESSION['id'])){   //檢查Session值是否存在
     else  
        echo "修改成功";   
     mysqli_close($conn);    //關閉數據庫連接
-    echo "<meta http-equiv='refresh' content='3;url=bulletin.php''>";    //上面例子會讓網頁在載入 0秒後，自動跳轉到bulletin.php 
+    echo "<meta http-equiv='refresh' content='3;url=bulletin.php''>";    //上面例子會讓網頁在載入 3秒後，自動跳轉到bulletin.php 
 }
 ?>
