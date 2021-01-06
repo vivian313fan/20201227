@@ -12,7 +12,7 @@ echo "
 <html>
 <head><title>修改佈告</title></head> //打在<TITLE></TITLE>這裡面的文字會出現在瀏覽器視窗最上頭藍色部份裡，當作一篇網頁的主題。<title> 標籤是放在 <head> 標籤裡面。
 <body>   //<body> 標籤作用上是當作一個容器，用來呈現網頁的主要內容
-  <h2>修改佈告</h2>
+  <h2>修改佈告</h2> ////H2代表副標題
   <form action='bulletin_edit.php' method='post'>
 //表單 <form> 有兩個重點，第一個重點是 action= 'bulletin_edit.php'，這代表當網友按下送出表單之後，會將資料傳送到 bulletin_edit.php 這程式。第二個重點是 method='post'，代表傳輸方式採用的是 POST 而不是 GET，要注意的是這裡的 post 必需採用小寫，如果寫成大寫，有許多瀏覽器可能會失效。
     <input type=hidden name=bid value=$row[bid]>
