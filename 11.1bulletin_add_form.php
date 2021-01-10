@@ -2,7 +2,7 @@
 <title>新增佈告</title>  //打在<TITLE></TITLE>這裡面的文字會出現在瀏覽器視窗最上頭藍色部份裡，當作一篇網頁的主題。
 <body>
     <h2>新增佈告</h2>
-    <form action="bulletin_add.php" method="post">  //表單是action='bulletin_add.php'，這代表當網友按下送出表單之後，會將資料傳送到 bulletin_add.php這程式。
+    <form action="bulletin_add.php" method="post">  //表單是action="bulletin_add.php"當按下送出表單之後，會將資料傳送到bulletin_add.php這程式。
     標題：<input  type="text" name="title" size="100"><p>
     佈告內容：<p>
 	<textarea rows="20" cols="100" name="content"></textarea> 
