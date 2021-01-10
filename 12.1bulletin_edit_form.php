@@ -9,7 +9,8 @@
     $row=mysqli_fetch_array($result);
    
 echo "
-<html>
+
+<html> 
 <head><title>修改佈告</title></head> 
 <body>   <!--用來呈現網頁的主要內容-->
   <h2>修改佈告</h2> <!--h2代表副標題-->
