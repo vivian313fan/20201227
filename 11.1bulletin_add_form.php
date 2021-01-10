@@ -3,7 +3,7 @@
 	//表單是action=bulletin_add.php當按下送出表單之後，會將資料傳送到bulletin_add.php這程式。
 <body>
     <h2>新增佈告</h2>
-    <form action="bulletin_add.php" method="post"> 
+    <form action="bulletin_add.php" method="post">  //表單是action=bulletin_add.php當按下送出表單之後，會將資料傳送到bulletin_add.php這程式。
     標題：<input  type="text" name="title" size="100"><p>
     佈告內容：<p>
 	<textarea rows="20" cols="100" name="content"></textarea> 
