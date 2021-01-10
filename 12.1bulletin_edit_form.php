@@ -11,7 +11,7 @@
 echo "
 <html>
 <head><title>修改佈告</title></head> 
-<body>   //用來呈現網頁的主要內容
+<body>   <!--用來呈現網頁的主要內容-->
   <h2>修改佈告</h2> H2代表副標題
   <form action='bulletin_edit.php' method='post'> <!--當按下送出表單之後，會將資料傳送到 bulletin_edit.php 這程式。-->
     <input type=hidden name=bid value=$row[bid]>
