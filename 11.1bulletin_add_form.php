@@ -13,6 +13,6 @@
     <p>      
     發佈時間：<input  type="date" name="time"><p>      
     <input type=submit value="發佈"><p>
-  </form>  //表單是action="bulletin_add.php"當按下送出表單之後，會將資料傳送到bulletin_add.php這程式。
+  </form>  
 </body>
 </html> 
