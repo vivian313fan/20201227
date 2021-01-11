@@ -1,5 +1,5 @@
 <html>
-<title>新增佈告</title>  //打在<TITLE></TITLE>這裡面的文字會出現在瀏覽器視窗最上頭藍色部份裡，當作一篇網頁的主題。
+<title>新增佈告</title>  <!--打在<TITLE></TITLE>這裡面的文字會當作一篇網頁的主題。-->
 	
 		
 <body>
